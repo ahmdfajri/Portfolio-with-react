@@ -12,12 +12,12 @@ class Project extends Component {
                 <div className="projects-grid">
                 {/* Project 1 */}
                <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-               <CardTitle style={{color: 'black', height:'176px', background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>Javascript</CardTitle>
+               <CardTitle style={{color: 'black', height:'176px', background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>Kategori Bilangan</CardTitle>
                <CardText>
-                   lorem ipsum anjing sia goblok
+                   Pada project ini saya membuat sebuah script yang dapat mengetahui sifat suatu bilangan 
                </CardText>
                <CardActions border>
-               <Button colored>Github</Button>
+               <Button colored rel="noopener noreferrer"  href="https://github.com/ahmdfajri/Kategori_Bilangan" target="_blank">Github</Button>
                <Button colored>CodePen</Button>
                <Button colored>LiveDemo</Button>
                </CardActions>
@@ -27,12 +27,12 @@ class Project extends Component {
                </Card>
                  {/* Project 2 */}
                 <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-                <CardTitle style={{color: 'black', height:'176px', background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>Javascript 2</CardTitle>
+                <CardTitle style={{color: 'black', height:'176px', background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>FPB & KPK</CardTitle>
                 <CardText>
-                    lorem ipsum anjing sia goblok
+                    Pada project ini saya membuat sebuah script pembaca nilai KPK dan FPB pada suatu bilangan
                 </CardText>
                 <CardActions border>
-                <Button colored>Github</Button>
+                <Button colored rel="noopener noreferrer" href="https://github.com/ahmdfajri/FPB_KPK" target="_blank">Github</Button>
                 <Button colored>CodePen</Button>
                 <Button colored>LiveDemo</Button>
                 </CardActions>
@@ -48,12 +48,12 @@ class Project extends Component {
                 <div className="projects-grid">
                 {/* Project 1 */}
                <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
-               <CardTitle style={{color: 'black', height:'176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png) center / cover'}}>HTML</CardTitle>
+               <CardTitle style={{color: 'black', height:'176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png) center / cover'}}>Pembaca Zodiak</CardTitle>
                <CardText>
-                   lorem ipsum anjing sia goblok
+                   Pada project ini saya membuat suatu web yang dapat menginput data user berupa nama, tanggal lahir, kota dan dapat menjadikannya pembaca zodiak berdasarkan tanggal lahir user tersebut
                </CardText>
                <CardActions border>
-               <Button colored>Github</Button>
+               <Button colored  rel="noopener noreferrer" href="https://github.com/ahmdfajri/Data_Tabel." target="_blank">Github</Button>
                <Button colored>CodePen</Button>
                <Button colored>LiveDemo</Button>
                </CardActions>

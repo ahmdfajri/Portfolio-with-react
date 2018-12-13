@@ -12,9 +12,9 @@ alt="avatar"
 className="avatar-img"
 />
 <div className="banner-text">
-<h1>Full Stack Web Developer</h1>
+<h1>Electrical Fresh Grad</h1>
 <hr/>
-<p>HTML/CSS | Bootstrap | Javascript | React | React Native |</p>
+<p>HTML/CSS | Bootstrap | Material Design Lite | Javascript | React |</p>
 </div>
 </Cell>
 </Grid>

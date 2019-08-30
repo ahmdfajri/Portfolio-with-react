@@ -122,6 +122,20 @@ class Project extends Component {
                 <IconButton name="share"/>
                 </CardMenu>
                 </Card>
+                 {/* Project 4 */}
+                 <Card shadow={5} style={{minWidth:'450', margin:'auto'}}>
+                <CardTitle style={{color: 'black', height:'176px', background:'url(https://cdn-images-1.medium.com/max/1200/1*K0a7xINk0RM5gfXGSN68cw.png) center / cover'}}>Pokedex with redux</CardTitle>
+                <CardText>
+                Pada project ini saya membuat sebuah web responsive yang dapat menampilkan detail suatu pokemon dan dapat ditangkap dengan menggunakan redux 
+                </CardText>
+                <CardActions border>
+                <Button colored  rel="noopener noreferrer" href="https://github.com/ahmdfajri/pokedex" target="_blank">Github</Button>
+                <Button colored rel="noopener noreferrer" href="https://mysterious-plains-27409.herokuapp.com" target="_blank">Live Demo</Button>
+               </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share"/>
+                </CardMenu>
+                </Card>
                 </div>
             )
         }

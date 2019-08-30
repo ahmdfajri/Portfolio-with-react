@@ -31,7 +31,9 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>achmad.fajria14@gmail.com</p>
             <h5>Web</h5>
-            <p>https://github.com/ahmdfajri</p>
+            <a style={{color:'black'}} href="https://github.com/ahmdfajri">https://github.com/ahmdfajri</a>
+            <h5>LinkedIn</h5>
+            <a style={{color:'black'}} href="https://www.linkedin.com/in/achmad-fajriansyah-nurdin/">https://www.linkedin.com/in/achmad-fajriansyah-nurdin/</a>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -62,24 +64,39 @@ class Resume extends Component {
                 jobName="Project With Lecturer"
                 jobDescription="Designing Graphical User Interface with visual studio for monitoring solar charger"
                 />
+                 <Experience
+                startYear={2019}
+                endYear={2019}
+                jobName="Shopketti"
+                jobDescription="Make UI for website with react and SASS"
+                />
+                     <Experience
+                startYear={2019}
+                jobName="Koperasi Inti Telkomsel"
+                jobDescription="Make frontend and backen using nodeJs for switching"
+                />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={75}
+                progress={60}
+                persen="60%"
                 />
                 <Skills
                   skill="HTML/CSS"
-                  progress={75}
+                  progress={65}
+                  persen="65%"
                   />
                   <Skills
                     skill="NodeJS"
-                    progress={70}
+                    progress={60}
+                    persen="60%"
                     />
                     <Skills
                       skill="React"
-                      progress={70}
-                      />
+                      progress={60}
+                      persen="60%"
+                    />    
           </Cell>
         </Grid>
       </div>
